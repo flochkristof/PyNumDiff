@@ -1,3 +1,5 @@
+# Modifications:
+Removed log file creation that created problems when the software is exported to executeable!
 # PyNumDiff
 
 Python methods for numerical differentiation of noisy data, including multi-objective optimization routines for automated parameter selection.
