@@ -1,0 +1,3 @@
+[submodule "pynumdiff/pychebfun"]
+	path = pynumdiff/pychebfun
+	url = https://github.com/flochkristof/pychebfun.git
