@@ -7,9 +7,9 @@ import copy
 import numpy as np
 import scipy
 
-
+"""
 def get_filenames(path, contains, does_not_contain=('~', '.pyc')):
-    """
+    
     Create list of files found in given path that contain or do not contain certain strings.
 
     :param path: path in which to look for files
@@ -23,7 +23,7 @@ def get_filenames(path, contains, does_not_contain=('~', '.pyc')):
 
     :return: list of filenames
     :rtype: list of strings
-    """
+
     cmd = 'ls ' + '"' + path + '"'
     ls = os.popen(cmd).read()
     all_filelist = ls.split('\n')
@@ -38,7 +38,7 @@ def get_filenames(path, contains, does_not_contain=('~', '.pyc')):
             if fileok:
                 filelist.append(os.path.join(path, filename))
     return filelist
-
+"""
 
 def is_odd(num):
     """
